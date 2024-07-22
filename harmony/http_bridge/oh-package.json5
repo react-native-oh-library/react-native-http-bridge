@@ -1,0 +1,15 @@
+{
+  "name": "@react-native-oh-tpl/react-native-http-bridge",
+  "version": "0.6.1-0.0.1",
+  "description": "A simple HTTP debug server for React Native apps",
+  "main": "index.ets",
+  "author": "",
+  "types": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "@rnoh/react-native-openharmony": 'file:../react_native_openharmony',
+    "@ohos/polka": "1.0.0-rc.0"
+  }
+}
+

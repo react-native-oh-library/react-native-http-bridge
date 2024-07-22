@@ -1,7 +1,6 @@
-
 {
-  "name": "react-native-http-bridge",
-  "version": "0.6.1",
+  "name": "@react-native-oh-tpl/react-native-http-bridge",
+  "version": "0.6.1-0.0.1",
   "description": "A simple HTTP debug server for React Native apps",
   "main": "httpServer.js",
   "repository": {
@@ -22,5 +21,16 @@
   "bugs": {
     "url": "https://github.com/alwx/react-native-http-bridge/issues"
   },
-  "homepage": "https://github.com/alwx/react-native-http-bridge#readme"
+  "homepage": "https://github.com/alwx/react-native-http-bridge#readme",
+  "harmony": {
+    "codegenConfig": {
+      "specPaths": [
+        "./src"
+      ]
+    },
+    "alias": "react-native-http-bridge"
+  },
+  "dependencies": {
+    "react-native-http-bridge": "^0.6.1"
+  }
 }
