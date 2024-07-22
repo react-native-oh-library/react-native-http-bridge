@@ -3,9 +3,10 @@
  */
 'use strict';
 
-import {DeviceEventEmitter} from 'react-native';
-import {NativeModules} from 'react-native';
-var Server = NativeModules.HttpServer;
+import { DeviceEventEmitter } from 'react-native';
+import { NativeModules } from 'react-native';
+import { TurboModuleRegistry } from "react-native";
+var Server = TurboModuleRegistry ? TurboModuleRegistry.get('ReactNativeHttpBridge') : NativeModules.HttpServer;
 
 module.exports = {
     start: function (port, serviceName, callback) {

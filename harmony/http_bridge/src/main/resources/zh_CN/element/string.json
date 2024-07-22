@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "Http_bridgeAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "Http_bridgeAbility_label",
+      "value": "label"
+    }
+  ]
+}

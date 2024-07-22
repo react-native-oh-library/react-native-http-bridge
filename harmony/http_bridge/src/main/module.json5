@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "http_bridge",
+    "type": "har",
+    "deviceTypes": [
+      "default"
+    ]
+  }
+}
