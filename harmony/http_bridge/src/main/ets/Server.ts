@@ -74,7 +74,7 @@ export class Server {
       this.context.rnInstance.emitDeviceEvent(SERVER_EVENT_ID, result);
 
       emitter.once('requestId' + this.requestId, (data) => {
-        Logger.info(TAG, 'on EventEmitter data: ' + JSON.stringify(data.data))
+        Logger.info(TAG, 'on EventEmitter data: ' + JSON.stringify(data.data));
         if (this.requestId === data.data.requestId) {
           res.writeHead(data.data.code, {
             'Content-Type': data.data.type,
@@ -95,9 +95,5 @@ export class Server {
       }
     };
     emitter.emit('requestId' + requestId, eventData);
-  }
-
-  stop() {
-    this.polkaServer.server?.stop();
   }
 }

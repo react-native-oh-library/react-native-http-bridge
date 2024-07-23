@@ -74,7 +74,6 @@ export class RNHttpBridgeTurboModule extends TurboModule implements TM.ReactNati
 
   private stopServer() {
     if (this.server != null) {
-      this.server.stop();
       this.server = null;
       this.port = 0;
     }
