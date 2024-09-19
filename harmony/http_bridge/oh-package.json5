@@ -1,6 +1,6 @@
 {
   "name": "@react-native-oh-tpl/react-native-http-bridge",
-  "version": "0.6.1-0.0.2",
+  "version": "0.6.1-0.0.3",
   "description": "A simple HTTP debug server for React Native apps",
   "main": "index.ets",
   "author": "",
