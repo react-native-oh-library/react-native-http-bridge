@@ -9,7 +9,7 @@
   "devDependencies": {},
   "dependencies": {
     "@rnoh/react-native-openharmony": 'file:../react_native_openharmony',
-    "@ohos/polka": "1.0.0-rc.3"
+    "@ohos/polka": "1.0.1"
   }
 }
 
