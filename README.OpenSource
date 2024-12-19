@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-http-bridge",
+        "License": "MIT License",
+        "License File": "https://www.mit-license.org/",
+        "Version Number": "0.6.1-0.0.4",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/alwx/react-native-http-bridge",
+        "Description": "http-bridge for react-native"
+    }
+]
